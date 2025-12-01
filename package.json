@@ -1,0 +1,17 @@
+{
+  "name": "s-life-backend",
+  "version": "1.0.0",
+  "description": "Health AI analysis and alert backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "firebase-admin": "^13.6.0",
+    "nodemailer": "^7.0.11"
+  }
+}
